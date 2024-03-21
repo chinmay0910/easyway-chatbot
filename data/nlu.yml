@@ -1,0 +1,371 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - Hey
+    - Good morning
+    - Good evening
+    - Hey there
+    - Hi there
+    - Hello there
+    - there there
+
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - Bye
+    - See you later
+    - Cya
+    - Farewell
+
+- intent: thank
+  examples: |
+    - Thank you
+    - Thanks
+    - Much appreciated
+    - Thanks a lot
+    - Thank you very much
+
+- intent: bot_challenge
+  examples: |
+    - What are you?
+    - Are you a bot?
+    - Are you human?
+    - Tell me about yourself
+    - Explain your purpose
+
+- intent: bot_info
+  examples: |
+    - Why are you?
+    - who Created you?
+
+- intent: after_10th
+  examples: |
+    - What can I do after 10th?
+    - Career options after 10th
+    - Choices after completing 10th grade
+
+- intent: after_12th
+  examples: |
+    - What can I do after 12th?
+    - Career options after 12th grade
+    - After 12th, what's next?
+
+- intent: after_BE_BTech
+  examples: |
+    - Career options after BE
+    - What careers are available after BTech?
+    - Jobs after engineering degree
+
+- intent: after_pharmacy
+  examples: |
+    - What career paths are there in pharmacy?
+    - Opportunities for pharmacy graduates
+    - Pharma career options
+
+- intent: after_MBA
+  examples: |
+    - What careers can I pursue after MBA?
+    - Job options for MBA graduates
+    - MBA specialization careers
+
+- intent: higher_education_options
+  examples: |
+    - What are my options for higher education?
+    - Postgraduate degree choices
+    - Further studies after graduation
+
+- intent: professional_certifications
+  examples: |
+    - Tell me about professional certifications
+    - Certifications in my field
+    - Are certifications worth it?
+
+- intent: job_market_trends
+  examples: |
+    - Current job market trends
+    - Industry job trends
+    - Job market conditions
+
+#dimploma fields---------------------------------------------------------------------------------------------
+
+- intent: diploma
+  examples: |
+    - what is diploma
+    - how long is a diploma course
+    - what are the different fields in diploma
+
+- intent: diploma_benefits
+  examples: |
+    - what are the benefits of diploma
+    - why should i do diploma
+    - why should i persue diploma
+    - why should i select diploma
+    - what are the benefits of selecting diploma
+
+- intent: diploma_mechanical
+  examples: |
+    - Diploma in Mechanical Engineering
+    - Mechanical diploma
+    - Study Mechanical Engineering after 10th
+    - what is mechanical engineering
+    - Diploma in ME
+    - doing ME after 10th
+    - i love to work with mechanical things
+    - i am interested in working in vehicles 
+
+- intent: diploma_electrical
+  examples: |
+    - Diploma in Electrical Engineering (EE)
+    - Electrical diploma
+    - Study Electrical Engineering after 10th
+    - Diploma in EE
+    - i like to know more about electrical things and power plants
+    - Diploma in Electrical Engineering
+    - Study Electrical Engineering after 10th
+    - what is electrical engineering
+    - Diploma in EXT
+    - doing EXT after 10th
+    - interested in electrical work
+    - interested in wiring
+    - is there future to electrical
+    - rating of electrical 
+    - difficulty level of electrical
+
+- intent: diploma_electronics
+  examples: |
+    - Diploma in Electronics Engineering (EE)
+    - Electronics diploma
+    - Study Electronics Engineering after 10th
+    - Diploma in Electronics Engineering
+    - Study Electronics Engineering after 10th
+    - what is electronics engineering
+    - doing EE after 10th
+    - interested in electronic work
+    - is there future to electronics
+    - rating of electronics
+    - difficulty level of electronics
+
+- intent: diploma_computer
+  examples: |
+    - Diploma in Computer Engineering (CE),computer science and engineering
+    - Computer diploma
+    - Study Computer Engineering after 10th
+    - Diploma in CE,CSE,coe, cs
+    - i like to know more about Software and a little bit hardware too
+    - Diploma in Computer Engineering
+    - Study Computer Engineering after 10th
+    - what is Computer engineering
+    - Diploma in CE,CSE,CMPN,CS
+    - doing CSE,CE,CS after 10th
+    - interested in Computer work
+    - interested in typing and learning new technologies
+    - is there future to Computer Engineering,cse,ce
+    - rating of Computer engineering,cse,ce 
+    - difficulty level of Computer science, computer engg
+
+- intent: diploma_civil
+  examples: |
+    - Diploma in Civil Engineering after 10th
+    - Civil diploma after 10th
+    - Study Civil Engineering after 10th
+    - i like to know more about Civil things and constructions after 10th
+    - Diploma in civil Engineering after 10th
+    - Study civil Engineering after 10th
+    - what is civil engineering diploma
+    - Diploma in civil after 10th
+    - doing civil after 10th
+    - interested in civil work after 10th
+    - interested in construction after 10th
+    - is there future to Civil after 10th
+    - rating of Civil after 10th
+    - difficulty level of Civil after 10th
+
+- intent: diploma_automobile
+  examples: |
+    - Diploma in Automobile Engineering after 10th
+    - Automobile diploma after 10th
+    - Study Automobile Engineering after 10th
+    - i like to know more about cars and anutomobile things  after 10th
+    - Diploma in Automobile Engineering after 10th
+    - Study Automobile Engineering after 10th
+    - what is Automobile engineering diploma
+    - Diploma in Automobile after 10th
+    - doing Automobile after 10th
+    - interested in Automobile work after 10th
+    - interested in automobile after 10th
+    - is there future to automobile after 10th
+    - rating of Automobile after 10th
+    - difficulty level of Automobile after 10th
+
+- intent: diploma_mechatronics
+  examples: |
+    - What is Mechatronics Engineering diploma after 10th?
+    - Can I study Mechatronics after 10th?
+    - Tell me more about Mechatronics diploma.
+    - What opportunities are there in Mechatronics after 10th?
+    - Is Mechatronics a good field after 10th?
+    - Can you explain the difficulty level of Mechatronics after 10th?
+    - How is the rating of Mechatronics after 10th?
+
+- intent: diploma_information_technology
+  examples: |
+    - What is a Diploma in Information Technology after 10th?
+    - Can I pursue Information Technology after 10th?
+    - Tell me more about the Information Technology diploma.
+    - What opportunities are available in Information Technology after 10th?
+    - Is Information Technology a promising field after 10th?
+    - Explain the difficulty level of Information Technology after 10th.
+    - How is the rating of Information Technology after 10th?
+
+    
+
+- intent: diploma_electronics_communication
+  examples: |
+    - What is Electronics & Communication diploma after 10th?
+    - Can I study Electronics & Communication after 10th?
+    - Tell me more about Electronics & Communication diploma.
+    - What opportunities are there in Electronics & Communication after 10th?
+    - Is Electronics & Communication a good field after 10th?
+    - Can you explain the difficulty level of Electronics & Communication after 10th?
+    - How is the rating of Electronics & Communication after 10th?
+
+- intent: diploma_architecture
+  examples: |
+    - What is Architecture diploma after 10th?
+    - Can I study Architecture after 10th?
+    - Tell me more about Architecture diploma.
+    - What opportunities are there in Architecture after 10th?
+    - Is Architecture a good field after 10th?
+    - Can you explain the difficulty level of Architecture after 10th?
+    - How is the rating of Architecture after 10th?
+
+- intent: diploma_cse_vs_IT
+  examples: |
+    - i am confused between computer engg and information technology which to choose for diploma after 10th
+    - i am confused between computer engg and information technology which to choose for diploma
+    - What's the difference between Diploma in CSE and IT?
+    - Can you compare Diploma in CSE and Diploma in IT?
+    - Which one is better, Diploma in CSE or IT?
+    - Tell me the distinctions between CSE and IT diplomas.
+    - What are the career prospects for Diploma in CSE vs. IT?
+    - Explain the curriculum variations between Diploma in CSE and IT.
+    - Which one has more job opportunities, CSE or IT diploma?
+
+#science field basic------------------------------------------------
+- intent: science_after_10th
+  examples: |
+    - What are my options in science after 10th?
+    - Tell me about science courses after 10th.
+    - Can you list science-related courses after 10th?
+    - Explain the science stream after 10th grade.
+    - What can I do in the field of science after completing the 10th grade?
+    - Tell me about career options in science after 10th.
+    - Give me information about science education paths after 10th.
+    - Which science courses are available after the 10th grade?
+
+- intent: science_medical_courses
+  examples: |
+    - What medical courses can I pursue after 10th?
+    - Tell me about career options in the medical field after 10th.
+    - Explain the medical stream after the 10th grade.
+    - Can I study medicine after 10th?
+    - List medical courses for students after the 10th grade.
+
+- intent: science_engineering_courses
+  examples: |
+    - What engineering courses are available after the 10th grade?
+    - Tell me about engineering options after 10th.
+    - Can I pursue engineering after the 10th grade?
+    - Explain the engineering stream after 10th.
+    - List engineering courses for students after the 10th grade.
+
+- intent: science_research_fields
+  examples: |
+    - What are the research opportunities in science after 10th?
+    - Tell me about careers in scientific research after 10th.
+    - Explain research fields in science for students after the 10th grade.
+    - Can I enter the field of scientific research after 10th?
+
+- intent: science_career_advice
+  examples: |
+    - I'm interested in science; what career advice can you offer after 10th?
+    - Provide career guidance for science enthusiasts after 10th.
+    - What are the best career options for science enthusiasts after the 10th grade?
+
+#commerce basics--------------------------------------------------------
+
+- intent: commerce_after_10th
+  examples: |
+    - Commerce courses after 10th
+    - Career options in commerce after 10th
+    - What to do in commerce after 10th
+    - Pursuing commerce after 10th
+    - I'm interested in commerce after 10th
+
+- intent: commerce_accounting_courses
+  examples: |
+    - Accounting courses after 10th
+    - Career in accounting after 10th
+    - Chartered Accountancy (CA) after 10th
+    - Accounting and finance courses after 10th
+
+- intent: commerce_business_courses
+  examples: |
+    - Business courses after 10th
+    - Entrepreneurship after 10th
+    - Pursuing a business career after 10th
+    - What are the options in business after 10th?
+
+- intent: commerce_economics_courses
+  examples: |
+    - Economics courses after 10th
+    - Exploring economics after 10th
+    - Economics and finance after 10th
+    - Pursuing economics in higher studies
+
+- intent: commerce_career_advice
+  examples: |
+    - Commerce career advice after 10th
+    - Career guidance in commerce after 10th
+    - Choosing the right commerce career
+    - Need advice for a commerce career after 10th
+
+#Arts basics----------------------------------------------------------
+- intent: arts_after_10th
+  examples: |
+    - Arts courses after 10th
+    - Career options in arts after 10th
+    - Pursuing arts after 10th
+    - I'm interested in arts after 10th
+    - What to do in arts after 10th
+
+- intent: arts_fine_arts_courses
+  examples: |
+    - Fine arts courses after 10th
+    - Career in fine arts after 10th
+    - Painting and sculpture after 10th
+    - Exploring fine arts in higher studies
+
+- intent: arts_performing_arts_courses
+  examples: |
+    - Performing arts courses after 10th
+    - Dance and drama after 10th
+    - Pursuing theater or dance after 10th
+    - Performing arts career options
+
+- intent: arts_language_literature_courses
+  examples: |
+    - Language and literature courses after 10th
+    - Literature studies after 10th
+    - Language and writing career options
+
+- intent: arts_career_advice
+  examples: |
+    - Arts career advice after 10th
+    - Career guidance in arts after 10th
+    - Choosing the right arts career
+    - Need advice for an arts career after 10th

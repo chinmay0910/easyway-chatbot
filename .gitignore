@@ -1,0 +1,5 @@
+.idea
+.rasa
+models
+tests
+venv

@@ -1,0 +1,385 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - thank
+  - bot_challenge
+  - after_10th
+  - after_12th
+  - scholarships_after_12th
+  - after_BE_BTech
+  - after_pharmacy
+  - after_MBA
+  - higher_education_options
+  - professional_certifications
+  - job_market_trends
+  - bot_info
+  - diploma
+  - diploma_benefits
+  - diploma_mechanical
+  - diploma_electrical
+  - diploma_electronics
+  - diploma_computer
+  - diploma_cse_vs_IT
+  - diploma_civil
+  - diploma_automobile
+  - diploma_mechatronics
+  - diploma_information_technology
+  - diploma_electronics_communication
+  - diploma_architecture
+  - science_after_10th
+  - science_medical_courses
+  - science_engineering_courses
+  - science_research_fields
+  - science_career_advice
+  - commerce_after_10th
+  - commerce_accounting_courses
+  - commerce_business_courses
+  - commerce_economics_courses
+  - commerce_career_advice
+  - arts_after_10th
+  - arts_fine_arts_courses
+  - arts_performing_arts_courses
+  - arts_language_literature_courses
+  - arts_career_advice
+
+
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! If you have more questions, feel free to ask. if you want to stop the bot then please type '/stop' "
+
+  utter_thank:
+    - text: "You're welcome! If you need further assistance, just let me know."
+
+  utter_bot_challenge:
+    - text: "I'm a chatbot designed to help with your career-related questions. How can I assist you today?"
+
+  utter_bot_info:
+    - text: "I'm a chatbot created by students of VIT to assist you regarding your career related doubts"
+
+  utter_after_10th:
+    - text: "|
+      Your options after completing 10th grade are:
+      1.Diploma Courses: Pursue specialized training in fields like engineering, healthcare, and IT.
+      2.Science Stream: Continue education for careers in engineering, medicine, or research.
+      3.Commerce Stream: Study finance, business, and accounting for careers in commerce.
+      4.Arts Stream: Explore humanities, journalism, or teaching opportunities.
+      5.Vocational Courses: Gain hands-on skills in various trades.
+      6.ITI: Train for jobs as electricians, plumbers, and mechanics.
+      7.Skill Development: Acquire marketable skills in areas like digital marketing or design."
+
+  utter_after_12th:
+      - text: "|
+          After completing your 12th grade, you have a variety of options to consider:-
+          1. Higher Education:- Pursue a bachelor's degree in fields such as science, commerce, arts, engineering, or medicine.
+          2. Professional Courses:- Explore courses like CA, CS, or CMA for a career in finance and accounting.
+          3. Vocational Training:- Enroll in vocational courses or diploma programs in areas like fashion design, hospitality, or computer science.
+          4. Competitive Exams:- Prepare for competitive exams like JEE, NEET, or UPSC, depending on your career goals.
+          5. Skill Development:- Acquire skills through online courses and certifications in areas like programming, digital marketing, or graphic design.
+          6. Job Opportunities:- Start working in entry-level positions or internships to gain practical experience.
+          7. Entrepreneurship:- If you have a business idea, consider starting your own venture."
+
+  utter_scholarships_after_12th:
+    - text: "|
+        Scholarships are available to support your higher education after completing 12th grade. Here are some key points:
+        1. **Types:** Scholarships come in various types, including merit-based, need-based, and subject-specific.
+        2. **Eligibility:** To apply, you'll need to meet specific eligibility criteria, such as academic performance and financial need.
+        3. **Application:** Prepare necessary documents like transcripts and recommendation letters, and submit applications before deadlines.
+        4. **Resources:** You can explore scholarship opportunities through online databases, government websites, and your college/university's financial aid office. "
+
+
+  utter_after_BE_BTech:
+    - text: "|
+        - Consider careers in engineering, technology, research, or related fields.
+        - Explore further studies like ME/MTech or PhD for specialized expertise.
+        - Gain hands-on experience through internships or co-op programs.
+        - Stay updated with industry trends and technologies.
+        - Network with professionals and join relevant associations for career growth."
+
+  utter_after_pharmacy:
+    - text: "|
+        - Explore roles in pharmaceuticals, healthcare, research, or academia.
+        - Pursue postgraduate studies (MPharm) for advanced career options.
+        - Engage in clinical internships and gain practical experience.
+        - Stay updated with pharmaceutical regulations and innovations.
+        - Consider specializing in areas like clinical research or regulatory affairs."
+
+  utter_after_MBA:
+    - text: "|
+        - Pursue roles in management, finance, marketing, entrepreneurship, and more.
+        - Consider joining top business schools for networking and opportunities.
+        - Develop leadership skills and business acumen.
+        - Explore global job markets and international business opportunities.
+        - Stay informed about industry trends and market dynamics."
+
+  utter_higher_education_options:
+    - text: "|
+        - Consider master's degrees for in-depth knowledge in your field.
+        - PhD programs offer research opportunities and academic careers.
+        - Specialized certifications can boost your expertise and job prospects.
+        - Look into online learning platforms for flexible education options.
+        - Seek guidance from mentors and advisors to plan your higher education journey."
+
+  utter_professional_certifications:
+    - text: "|
+        - Enhance your qualifications with industry-relevant certifications.
+        - Acquire certifications such as PMP, CCNA, or AWS for IT careers.
+        - Explore financial certifications like CFA or CPA for finance roles.
+        - Health professionals can consider certifications like RN or CMA.
+        - Certifications validate your skills and may lead to higher earning potential."
+
+  utter_job_market_trends:
+    - text: "|
+        The job market is dynamic, and it's important to stay informed about the latest trends. Here are some key insights into the current job market:
+        1. **Remote Work Opportunities:** Remote and hybrid work arrangements have become more common, offering flexibility to professionals in various fields.
+        2. **Tech Skills in Demand:** Skills like data science, cybersecurity, and software development are highly sought after.
+        3. **Digital Transformation:** Companies are investing in digital transformation, creating jobs in areas like cloud computing and digital marketing.
+        4. **Soft Skills:** Communication, adaptability, and problem-solving remain essential in the workplace.
+        5. **Healthcare and Pharma:** The healthcare and pharmaceutical industries continue to see growth, especially in healthcare IT and research.
+        6. **Sustainability:** Careers related to sustainability and green technology are on the rise.
+        7. **E-commerce and Logistics:** The e-commerce boom has led to increased demand in logistics and supply chain roles."
+
+
+    #diploma infos---------------------------------------------------------------------------------------------------
+  utter_diploma:
+    - text: "|
+        Diplomas offer specialized training and expertise in various fields, including:
+        - Engineering
+          1. mechanical:The Diploma in Mechanical Engineering is a comprehensive program that covers topics such as thermodynamics, fluid mechanics, and mechanical design.
+          2. electrical:The Diploma in Electrical Engineering focuses on electrical systems, electronics, and power distribution.
+          3. electronics:The Diploma in Electronics program teaches students about electronic circuits, digital systems, and semiconductor devices.
+          4. Computer:The Diploma in Computer Science covers programming, software development, and computer networks.
+          5. Civil:The Diploma in Civil Engineering emphasizes construction, structural design, and infrastructure development.
+          ... (and more).
+        - Healthcare
+        - Information Technology
+        - Hospitality
+        - 
+        ... (and more) "
+
+  utter_diploma_benefits:
+      - text: "|
+          1. Diplomas offer cost-effective and efficient pathways to specialized skills, leading to quicker entry into the workforce.
+          2. Hands-on training and practical knowledge make diploma graduates highly sought-after by employers.
+          3. With opportunities for in-demand careers, competitive salaries, and flexibility, diplomas provide a rewarding and adaptable educational choice."
+
+  utter_diploma_mechanical:
+      - text: "|
+            The Diploma in Mechanical Engineering is a comprehensive program that covers topics such as thermodynamics, fluid mechanics, and mechanical design. Graduates often find opportunities in industries like manufacturing, automotive, and aerospace.
+            Core Principles:- Mechanical engineering is based on fundamental principles of physics and mathematics, including mechanics, thermodynamics, and fluid dynamics.
+            Key Areas:- Mechanical engineering includes sub-disciplines such as:-
+            Thermodynamics:- Study of heat transfer and energy conversion.
+            Mechanics:- Analysis of forces, motion, and structural integrity.
+            Fluid Dynamics:- Study of fluids (liquids and gases) and their behavior.
+            Materials Science:- Understanding the properties of materials and their applications.
+            Machine Design:- Designing and analyzing mechanical systems and components.
+            Manufacturing:- Processes for producing mechanical parts and products."
+
+  utter_diploma_electrical:
+    - text: "|
+          Electrical engineering encompasses a wide range of topics, including circuit theory, electronics, power systems, digital systems, control systems, and communication systems.
+          Electrical engineers are responsible for designing, developing, and maintaining electrical systems and devices.
+          They work on projects related to power generation, distribution, and utilization, as well as electronic circuits and systems.
+          Difficulty Rating: 3/5
+          Diploma in Electrical Engineering is moderately challenging and requires a good understanding of mathematics and physics.
+          It covers topics like electrical circuits, power systems, and electronics.
+          Scope Rating: 4/5
+          There is a promising scope for diploma holders in Electrical Engineering.
+          Graduates can find employment in various industries, including power generation, electronics, telecommunications, and manufacturing."
+
+  utter_diploma_electronic:
+    - text: "|
+          Diploma in Electronics Engineering is a program that focuses on the foundational principles of electronics, circuit design, and electronic systems.
+          It provides practical skills and knowledge required for various roles in the electronics industry.
+          Difficulty Rating: 3/5
+          The difficulty level of a diploma in Electronics Engineering is moderate.
+          It involves learning fundamental concepts in electronics and practical applications.
+          Scope Rating: 4/5
+          The scope for diploma holders in Electronics Engineering is promising."
+
+  utter_diploma_computer:
+    - text: "|
+          Diploma in Computer Engineering is a program that focuses on computer hardware, software, and systems.
+          It covers topics such as computer architecture, programming, networking, and digital systems.    
+          Difficulty Rating (Out of 5): 3/5
+          Diploma in Computer Engineering is generally considered moderately challenging.
+          It requires a solid understanding of mathematics and logical reasoning.
+          Scope Rating (Out of 5): 5/5         
+          Diploma holders in Computer Engineering have a wide scope of career opportunities.
+          They can work in IT companies, software development firms, and tech-related industries."
+
+  utter_diploma_civil:
+    - text: "|
+          Diploma in Civil Engineering focuses on the study of civil infrastructure, construction, and project management.
+          It covers subjects like structural analysis, surveying, materials testing, and project planning.
+          Difficulty Rating: 3/5
+          Diploma in Civil Engineering is moderately challenging, with a balanced mix of theory and practical work.
+          Scope Rating: 4/5
+          The scope for Diploma in Civil Engineering is substantial, offering diverse career opportunities."
+
+  utter_diploma_automobile:
+    - text: "|
+          Diploma in Automobile Engineering is a specialized program focused on the study of automotive technology.
+          It covers topics such as vehicle design, engine mechanics, automotive electronics, and maintenance.
+          Students learn to design, repair, and maintain automobiles, making it a hands-on and practical field of study.
+          Difficulty Rating: 3/5         
+          Diploma in Automobile Engineering is considered moderately challenging.
+          It involves a blend of theoretical knowledge and practical skills. Scope Rating: 4/5  
+          Diploma holders in Automobile Engineering have a promising scope.
+          They can work in the automotive industry, including roles in automotive manufacturing, repair, and maintenance."
+
+  utter_diploma_mechatronics:
+    - text: "|
+          Mechatronics Engineering is a multidisciplinary field that combines mechanical engineering, electronics, computer science, and control engineering to design and develop intelligent systems and products. 
+          It integrates mechanical components with electronics and software to create automated and smart systems.
+          Difficulty Rating: 4/5
+          Mechatronics Engineering can be challenging due to its interdisciplinary nature, requiring proficiency in mechanical, electronic, and software concepts.
+          Courses often cover complex topics like robotics, automation, and control systems.
+          Scope Rating: 5/5
+          Mechatronics engineers have excellent career prospects, with opportunities in industries like robotics, automotive, manufacturing, and aerospace.
+          They play a key role in designing and maintaining automated systems, improving efficiency, and reducing costs."
+
+  utter_diploma_information_technology:
+    - text: "|
+          Diploma in Information Technology Engineering is a program that focuses on the fundamental concepts of information technology. It covers areas such as computer hardware, software, networking, and programming.
+          Graduates are equipped with the skills to work in various IT roles, including IT support, software development, and network administration.  
+          Difficulty Rating (Out of 5): 3/5
+          The difficulty of this diploma program is moderate.
+          It requires a solid understanding of computer systems and software.
+          Students need to grasp programming concepts and network protocols.
+          Scope Rating (Out of 5): 4/5     
+          Diploma holders in Information Technology Engineering have a promising scope.
+          They can find opportunities in diverse industries, including IT services, software development, and cybersecurity."
+
+  utter_diploma_electronics_communication:
+    - text: "|
+           Electrical engineering encompasses a wide range of topics, including circuit theory, electronics, power systems, digital systems, control systems, and communication systems.
+           Difficulty Rating: 3/5
+          Diploma in Electrical Engineering is moderately challenging and requires a good understanding of mathematics and physics.
+          It covers topics like electrical circuits, power systems, and electronics.
+          Scope Rating: 4/5
+          There is a promising scope for diploma holders in Electrical Engineering.
+          Graduates can find employment in various industries, including power generation, electronics, telecommunications, and manufacturing."
+
+  utter_diploma_architecture:
+    - text: "|
+          Diploma in Electronics and Communication Engineering focuses on electronic systems, circuits, and communication technologies.
+          It covers areas such as analog and digital electronics, microcontrollers, telecommunications, and signal processing.
+          Graduates can work in industries like telecommunications, broadcasting, and electronics manufacturing.
+          Difficulty Rating: 3/5
+          Diploma in ECE is moderately challenging, requiring a good understanding of electronics and communication principles.
+          Courses may include topics like circuit analysis, communication systems, and microcontroller programming.
+          Scope Rating: 4/5
+          The scope for ECE graduates is promising, with diverse career opportunities.
+          Professionals can work in telecommunications companies, electronic product design, and broadcasting."
+  utter_diploma_cse_vs_IT:
+    - text: "|
+          1.Diploma in Computer Engineering:
+          Focuses on computer hardware, including design, development, and maintenance.
+          Curriculum covers computer architecture, digital electronics, and microprocessors.
+          Career prospects include hardware engineers, computer technicians, and network administrators.
+          
+          2.Diploma in Information Technology (IT) Engineering:
+          Emphasizes software, network management, and IT systems.
+          Curriculum includes programming, software development, network administration, and cybersecurity.
+          Career opportunities include software developers, network administrators, and IT consultants.
+          
+          Both Provide same amount of career opportunities"
+
+#scince basic----------------------------------------------------------------
+
+  utter_science_after_10th:
+    - text: "1. Explore medical, engineering, or research fields after 10th.
+      2. Consider courses like MBBS, engineering, or scientific research.
+      3. Choose a path aligned with your interests."
+
+  utter_science_medical_courses:
+    - text: "1. Medical courses like MBBS and nursing are options.
+      2. Explore dental (BDS) or pharmacy programs.
+      3. Start your journey in the healthcare field."
+
+  utter_science_engineering_courses:
+    - text: "1. Engineering options include mechanical, electrical, and more.
+      2. Choose a specialization that suits your interests.
+      3. Begin your engineering education after 10th."
+
+  utter_science_research_fields:
+    - text: "1. Contribute to scientific advancements in biology, chemistry, and physics.
+      2. Explore research opportunities in environmental science.
+      3. Join the world of scientific discovery."
+
+  utter_science_career_advice:
+    - text: "1. Align your science career with your passions.
+      2. Seek guidance from experts and educators.
+      3. Make informed choices for a rewarding future."
+
+#commerce basics-----------------------------------------------------
+  utter_commerce_after_10th:
+    - text: "|
+      1. Explore commerce courses for a promising career.
+      2. Consider accounting, business, or economics fields.
+      3. Get started on your path to a successful commerce career."
+
+  utter_commerce_accounting_courses:
+    - text: "|
+      1. Accounting courses include CA, finance, and more.
+      2. Dive into financial management and auditing.
+      3. Build a rewarding career in accounting and finance."
+
+  utter_commerce_business_courses:
+    - text: "|
+      1. Business courses cover entrepreneurship and management.
+      2. Develop business acumen and leadership skills.
+      3. Discover opportunities in the world of commerce and business."
+
+  utter_commerce_economics_courses:
+    - text: "|
+      1. Economics courses explore financial markets and policies.
+      2. Study economic theories and market dynamics.
+      3. Shape your future in economics and finance."
+
+  utter_commerce_career_advice:
+    - text: "|
+      1. Seek tailored advice for a successful commerce career.
+      2. Get guidance on choosing the right commerce path.
+      3. Make informed decisions for your commerce journey."
+
+#arts basic------------------------------------------------------------
+  utter_arts_after_10th:
+    - text: "|
+      1. Explore diverse arts courses after the 10th.
+      2. Consider fine arts, performing arts, or language and literature.
+      3. Discover your passion in the world of arts."
+
+  utter_arts_fine_arts_courses:
+    - text: "|
+      1. Fine arts courses include painting, sculpture, and more.
+      2. Express your creativity through visual arts.
+      3. Embark on a colorful journey in the fine arts."
+
+  utter_arts_performing_arts_courses:
+    - text: "|
+      1. Performing arts cover dance, drama, and more.
+      2. Showcase your talent on the stage.
+      3. Explore the exciting world of performing arts."
+
+  utter_arts_language_literature_courses:
+    - text: "|
+      1. Language and literature studies offer a deep understanding of words.
+      2. Dive into the world of writing and storytelling.
+      3. Unleash your linguistic prowess in the field of arts."
+
+  utter_arts_career_advice:
+    - text: "|
+      1. Seek personalized advice for a successful arts career.
+      2. Get guidance on choosing the right artistic path.
+      3. Make informed decisions to nurture your passion in the arts."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

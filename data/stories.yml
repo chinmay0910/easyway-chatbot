@@ -1,0 +1,335 @@
+version: "3.1"
+
+stories:
+- story: User greets and asks about career options after 12th
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: after_12th
+  - action: utter_after_12th
+  - intent: scholarships_after_12th
+  - action: utter_scholarships_after_12th
+
+
+- story: User greeting bot and asking his info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_info
+  - action: utter_bot_info
+
+- story: User inquires about higher education options
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: higher_education_options
+  - action: utter_higher_education_options
+
+- story: User asks for professional certification advice
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: professional_certifications
+  - action: utter_professional_certifications
+
+- story: User thanks the chatbot
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thank
+  - action: utter_thank
+
+- story: User challenges the chatbot's identity
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- story: User says goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: User asks about job market trends
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: job_market_trends
+  - action: utter_job_market_trends
+
+- story: User asks about career options after 10th
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: after_10th
+  - action: utter_after_10th
+
+- story: User inquires about career options after completing BE/BTech
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: after_BE_BTech
+  - action: utter_after_BE_BTech
+
+- story: User asks about job options after completing MBA
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: after_MBA
+  - action: utter_after_MBA
+
+- story: User wants to know about career options in pharmacy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: after_pharmacy
+  - action: utter_after_pharmacy
+
+- story: User thanks the chatbot and says goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: User asks about higher education and thanks the chatbot
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: higher_education_options
+  - action: utter_higher_education_options
+  - intent: thank
+  - action: utter_thank
+
+- story: User challenges the chatbot's identity and says goodbye
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: User challenges the chatbot's identity
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- story: User says goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: User asks about job market trends
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: job_market_trends
+  - action: utter_job_market_trends
+
+
+- story: User asks about career options after 10th
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: after_10th
+  - action: utter_after_10th
+
+- story: User inquires about career options after completing BE/BTech
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: after_BE_BTech
+  - action: utter_after_BE_BTech
+
+- story: User asks about job options after completing MBA
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: after_MBA
+  - action: utter_after_MBA
+
+- story: User wants to know about career options in pharmacy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: after_pharmacy
+  - action: utter_after_pharmacy
+
+- story: User thanks the chatbot and says goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: User asks about higher education and thanks the chatbot
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: higher_education_options
+  - action: utter_higher_education_options
+  - intent: thank
+  - action: utter_thank
+
+- story: User challenges the chatbot's identity and says goodbye
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+  - intent: goodbye
+  - action: utter_goodbye
+
+ #diploma infos--------------------------------------------------------------------------------------------------
+
+- story: User asks about diploma
+  steps:
+  - intent: diploma
+  - action: utter_diploma
+  - intent: diploma_benefits
+  - action: utter_diploma_benefits
+
+- story: User asks about diploma benefits
+  steps:
+  - intent: diploma_benefits
+  - action: utter_diploma_benefits
+
+- story: User inquires about Diploma in Mechanical Engineering
+  steps:
+  - intent: diploma_mechanical
+  - action: utter_diploma_mechanical
+
+- story: User inquires about Diploma in Electrical Engineering
+  steps:
+  - intent: diploma_electrical
+  - action: utter_diploma_electrical
+
+- story: User inquires about Diploma in Electronics
+  steps:
+  - intent: diploma_electronics
+  - action: utter_diploma_electronic
+
+- story: User inquires about Diploma in Computer Science
+  steps:
+  - intent: diploma_computer
+  - action: utter_diploma_computer
+
+- story: User inquires about Diploma in Civil Engineering
+  steps:
+  - intent: diploma_civil
+  - action: utter_diploma_civil
+
+- story: User inquires about Diploma in Automobile Engineering
+  steps:
+  - intent: diploma_automobile
+  - action: utter_diploma_automobile
+
+- story: User inquires about Diploma in Mechatronics
+  steps:
+  - intent: diploma_mechatronics
+  - action: utter_diploma_mechatronics
+
+- story: User inquires about Diploma in Information Technology
+  steps:
+  - intent: diploma_information_technology
+  - action: utter_diploma_information_technology
+
+- story: User inquires about Diploma in Electronics and Communication
+  steps:
+  - intent: diploma_electronics_communication
+  - action: utter_diploma_electronics_communication
+
+- story: User inquires about Diploma in Architecture
+  steps:
+  - intent: diploma_architecture
+  - action: utter_diploma_architecture
+
+- story: User inquires difference in diploma in cse vs it
+  steps:
+  - intent: diploma_cse_vs_IT
+  - action: utter_diploma_cse_vs_IT
+
+#science basic ----------------------------------------------------------
+- story: User asks about science fields after 10th
+  steps:
+  - intent: science_after_10th
+  - action: utter_science_after_10th
+
+- story: User inquires about medical courses
+  steps:
+  - intent: science_medical_courses
+  - action: utter_science_medical_courses
+
+- story: User explores engineering courses
+  steps:
+  - intent: science_engineering_courses
+  - action: utter_science_engineering_courses
+
+- story: User is interested in research fields
+  steps:
+  - intent: science_research_fields
+  - action: utter_science_research_fields
+
+- story: User seeks science career advice
+  steps:
+  - intent: science_career_advice
+  - action: utter_science_career_advice
+
+#commerce info------------------------------------------------------
+
+- story: User asks about commerce fields after 10th
+  steps:
+  - intent: commerce_after_10th
+  - action: utter_commerce_after_10th
+
+- story: User inquires about accounting courses
+  steps:
+  - intent: commerce_accounting_courses
+  - action: utter_commerce_accounting_courses
+
+- story: User explores business courses
+  steps:
+  - intent: commerce_business_courses
+  - action: utter_commerce_business_courses
+
+- story: User is interested in economics courses
+  steps:
+  - intent: commerce_economics_courses
+  - action: utter_commerce_economics_courses
+
+- story: User seeks commerce career advice
+  steps:
+  - intent: commerce_career_advice
+  - action: utter_commerce_career_advice
+
+#Arts basic----------------------------------------------------------------
+
+- story: User asks about arts fields after 10th
+  steps:
+  - intent: arts_after_10th
+  - action: utter_arts_after_10th
+
+- story: User inquires about fine arts courses
+  steps:
+  - intent: arts_fine_arts_courses
+  - action: utter_arts_fine_arts_courses
+
+- story: User explores performing arts courses
+  steps:
+  - intent: arts_performing_arts_courses
+  - action: utter_arts_performing_arts_courses
+
+- story: User is interested in language and literature courses
+  steps:
+  - intent: arts_language_literature_courses
+  - action: utter_arts_language_literature_courses
+
+- story: User seeks arts career advice
+  steps:
+  - intent: arts_career_advice
+  - action: utter_arts_career_advice
+
