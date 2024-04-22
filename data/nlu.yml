@@ -47,6 +47,7 @@ nlu:
     - What can I do after 10th?
     - Career options after 10th
     - Choices after completing 10th grade
+    - what are the career paths after 10th ?
 
 - intent: after_12th
   examples: |
